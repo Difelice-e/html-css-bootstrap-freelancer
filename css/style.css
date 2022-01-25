@@ -1,0 +1,14 @@
+/* debug */
+.container {
+    border: 1px solid black;
+    min-height: 150px;
+}
+
+.row {
+    border: 1px solid red;
+    min-height: 100px;
+}
+
+[class*="col"] {
+    border: 1px dashed blue;
+}
