@@ -14,14 +14,42 @@
 
 
 .jumbo_img-wrapper {
-    width: 30%;
+    width: 220px;
     /* margin: 0 auto; */
 }
 
-
-#jumbotron {
-    min-height: 590px;
+#jumbotron .col {
+    gap: 10px;
 }
+
+.jumbo_icon {
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.jumbo_icon::before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    right: 120%;
+    top: 50%;
+}
+
+.jumbo_icon::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    left: 120%;
+    top: 50%;
+}
+
+
 
 .portfolio_card {
     min-height: 260px;
@@ -59,7 +87,7 @@ footer {
 
 
 /* debug */
-.container {
+/* .container {
     border: 1px solid black
 }
 
@@ -69,4 +97,4 @@ footer {
 
 [class*="col"] {
     border: 1px dashed blue;
-}
+} */
