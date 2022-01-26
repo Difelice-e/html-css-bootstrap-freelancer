@@ -10,51 +10,46 @@
     background-color: #1ABC9C;
 }
 
-/* HEADER  */
+.star_icon {
+    position: relative;
+    font-size: 1.5rem;
+}
 
+.star_icon::before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 70px;
+    background-color: currentColor;
+    position: absolute;
+    right: 120%;
+    top: 50%;
+}
 
+.star_icon::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 70px;
+    background-color: currentColor;
+    position: absolute;
+    left: 120%;
+    top: 50%;
+}
+
+/* JUMBO  */
 .jumbo_img-wrapper {
     width: 220px;
-    /* margin: 0 auto; */
 }
 
 #jumbotron .col {
     gap: 10px;
 }
 
-.jumbo_icon {
-    position: relative;
-    font-size: 1.5rem;
-}
-
-.jumbo_icon::before {
-    content: '';
-    display: block;
-    height: 3px;
-    width: 50px;
-    background-color: white;
-    position: absolute;
-    right: 120%;
-    top: 50%;
-}
-
-.jumbo_icon::after {
-    content: '';
-    display: block;
-    height: 3px;
-    width: 50px;
-    background-color: white;
-    position: absolute;
-    left: 120%;
-    top: 50%;
-}
-
-
-
+/* PORTFOLIO  */
 .portfolio_card {
-    min-height: 260px;
-    background-color: grey;
-    border-radius: 5px;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 #contact .container {
