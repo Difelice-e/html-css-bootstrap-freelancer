@@ -1,22 +1,23 @@
-.bg-dark {
+.bg_dark {
     background-color: #2C3E50;
 }
 
-.bg-grey {
+.bg_grey {
     background-color: #3A546D;
 }
 
-.bg-green {
+.bg_green {
     background-color: #1ABC9C;
 }
 
-.main-header {
-    color: white;
+/* HEADER  */
+
+
+.jumbo_img-wrapper {
+    width: 30%;
+    /* margin: 0 auto; */
 }
 
-.main-header .row {
-    min-height: 90px;
-}
 
 #jumbotron {
     min-height: 590px;
@@ -58,16 +59,14 @@ footer {
 
 
 /* debug */
-/* .container {
-    border: 1px solid black;
-    min-height: 100px;
+.container {
+    border: 1px solid black
 }
 
 .row {
-    border: 1px solid red;
-    min-height: 100px;
+    border: 1px solid red
 }
 
 [class*="col"] {
     border: 1px dashed blue;
-} */
+}
