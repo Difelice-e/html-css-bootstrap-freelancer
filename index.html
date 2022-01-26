@@ -12,85 +12,152 @@
 </head>
 
 <body>
-    <header class="container text-white bg_hgrey">
-        <div class="row">
-            <div class="col">Start Bootstrap</div>
-            <div class="col">Nav menu</div>
+    <header class="main-header bg-dark">
+        <div class="container">
+            <nav class="row align-items-center justify-content-between">
+                <div class="col-auto">Start Bootstrap</div>
+                <div class="col-auto">Nav menu</div>
+            </nav>
         </div>
     </header>
 
-    <main class="container">
-        <section class="row justify-content-center text-white text-center bg_lgreen">
-            <div class="col-4">
-                img + h1 + testo
+    <main">
+
+        <section id="jumbotron" class="bg-green">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        img + titolo + testo
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="row justify-content-center text-center">
-            <div class="col-3">
-                <h2>Portfolio</h2>
-            </div>
+        <section id="portfolio" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Portfolio</h2>
+                        stelline
+                    </div>
+                </div>
 
-            <div class="row justify-content-center">
-                <div class="col-8">
-                    <div class="row flex-wrap">
-                        <div class="col-4">
-                            img
+                <div class="row gy-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio_card">
+                            card
                         </div>
+                    </div>
 
-                        <div class="col-4">
-                            img
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio_card">
+                            card
                         </div>
+                    </div>
 
-                        <div class="col-4">
-                            img
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio_card">
+                            card
                         </div>
+                    </div>
 
-                        <div class="col-4">
-                            img
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio_card">
+                            card
                         </div>
+                    </div>
 
-                        <div class="col-4">
-                            img
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio_card">
+                            card
                         </div>
+                    </div>
 
-                        <div class="col-4">
-                            img
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="portfolio_card">
+                            card
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="row bg_lgreen">
-            <div class="row justify-content-center">
-                <div class="col-3">
-                    About
+        <section id="about" class="bg-green py-5">
+            <div class="container">
+                <div class="row justify-content-lg-center">
+                    <div class="col-12 col-lg-10">
+                        <h2>About</h2>
+                    </div>
+                </div>
+
+                <div class="row gy-4 justify-content-lg-center">
+                    <div class="col-12 col-lg-10">
+                        <p class="about_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, animi!
+                        Modi suscipit molestias eum architecto optio nihil, possimus ad. Veritatis.
+                        Nemo tenetur sunt autem corrupti. Odit provident magnam nostrum consequuntur.
+                        Assumenda velit nam quibusdam ut maxime eum, voluptates ipsa voluptas.
+                        Vitae obcaecati libero consectetur animi eum non suscipit, mollitia amet!
+                        Facilis reprehenderit placeat harum perferendis deserunt expedita maiores, explicabo pariatur.
+                        Fuga at dolorem deleniti adipisci ex ratione, quia tempora error?
+                        Totam facere ipsam autem ab, quas repellat temporibus enim aliquam.
+                        Ipsum amet ea placeat rem itaque porro, aut voluptates quod.
+                        Velit maiores vel cumque nobis quos rem natus repudiandae nisi?</p>
+                    </div>
+
+                    <div class="col-12 text-center">
+                        <button class="btn">Download</button>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="row justify-content-center">
-                <div class="col-8">
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>contact-me</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <form action="">
+                            <input type="text" name="name" placeholder="name">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </main>
+
+        <footer>
+            <section class="bg-grey py-4">
+                <div class="container">
                     <div class="row">
-                        <div class="col"></div>
-                        <div class="col"></div>
+                        <div class="col-12 col-md-4">
+                            <h5>location</h5>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <h5>around the web</h5>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <h5>about freelancer</h5>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="row text-center">
-                <div class="col">
-                    button
+            <section class="bg-dark py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            Made with love
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
 
-        <section class="row justify-content-center">
-            <div class="col-3">
-                Contact me
-            </div>
-        </section>
-    </main>
+            </section>
+        </footer>
 </body>
 
 </html>

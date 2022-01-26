@@ -1,16 +1,66 @@
-.bg_hgrey {
+.bg-dark {
     background-color: #2C3E50;
 }
 
-.bg_lgreen {
+.bg-grey {
+    background-color: #3A546D;
+}
+
+.bg-green {
     background-color: #1ABC9C;
 }
 
+.main-header {
+    color: white;
+}
+
+.main-header .row {
+    min-height: 90px;
+}
+
+#jumbotron {
+    min-height: 590px;
+}
+
+.portfolio_card {
+    min-height: 260px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+#contact .container {
+    max-width: 985px;
+}
+
+#contact {
+    min-height: 400px;
+}
+
+footer {
+    color: white;
+}
+
+
+
+
+@media all and (min-width:768px) {
+    .about_text {
+        column-count: 2;
+        column-gap: 1.5rem;
+        /* text-align: justify; */
+    }
+}
+
+
+
+
+
+
 
 /* debug */
-.container {
+/* .container {
     border: 1px solid black;
-    min-height: 150px;
+    min-height: 100px;
 }
 
 .row {
@@ -20,4 +70,4 @@
 
 [class*="col"] {
     border: 1px dashed blue;
-}
+} */
