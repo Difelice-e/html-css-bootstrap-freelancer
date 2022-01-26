@@ -27,7 +27,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-uppercase" aria-current="page" href="#portfolio">Portfolio</a>
+                            <a class="nav-link active text-uppercase" aria-current="page"
+                                href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active text-uppercase" href="#about">About</a>
@@ -145,37 +146,54 @@
             </div>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="py-4">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2>contact-me</h2>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 d-flex flex-column align-items-center py-3">
+                        <h2 class="text-uppercase">Contact me</h2>
+                        <div class="star_icon">
+                            <i class="fas fa-star"></i>
+                        </div>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-12">
-                        <form action="">
-                            <input type="text" name="name" placeholder="name">
-                        </form>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 d-flex flex-column">
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Email Address">
+                        <input type="phone-number" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Phone Number">
+                        <textarea class="form-control mb-3" id="exampleFormControlTextarea1" placeholder="Message"
+                            rows="5"></textarea>
+                        <button type="input"
+                            class="btn btn-primary btn-lg align-self-start bg_green border-0">Send</button>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="text-white">
         <section class="bg_grey py-4">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <h5>location</h5>
+                        <h5 class="text-uppercase">location</h5>
+                        <p>225 John Daniel Drive Clark, MO 54243</p>
                     </div>
                     <div class="col-12 col-md-4">
-                        <h5>around the web</h5>
+                        <h5 class="text-uppercase">around the web</h5>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
                     </div>
                     <div class="col-12 col-md-4">
-                        <h5>about freelancer</h5>
+                        <h5 class="text-uppercase">about freelancer</h5>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>.</p>
                     </div>
                 </div>
             </div>
