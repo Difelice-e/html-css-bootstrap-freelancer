@@ -10,6 +10,15 @@
     background-color: #1ABC9C;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul {
+    list-style-type: none;
+}
+
 .star_icon {
     position: relative;
     font-size: 1.5rem;
@@ -39,7 +48,7 @@
 
 /* JUMBO  */
 .jumbo_img-wrapper {
-    width: 220px;
+    width: 150px;
 }
 
 #jumbotron .col {
@@ -56,6 +65,22 @@
 #contact input, #contact textarea {
     border: none;
     border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+/* FOOTER */
+.social_link {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 5px;
+}
+
+.bootstrap_link {
+    color: #1ABC9C;
 }
 
 
